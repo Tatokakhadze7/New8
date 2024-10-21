@@ -23,18 +23,26 @@ h1{
 .container{
 	width: 1170px;
 	margin: 0 auto;
-	background-color: darkgreen;
+	background-color: white;
+
 }
 
 .line1{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .line2{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 	
 }
 
@@ -44,6 +52,39 @@ h1{
 	background-color: lightcyan;
 }
 
-.card:nth-child(3){
+
+.card:nth-child(1),.card:nth-child(2),.card:nth-child(3){
+	margin-bottom: 50px;
+	border-radius: 5px;
+	border-color: darkgrey;
+	border-style: solid;
+	border-width: 5px;
+
+
+}
+
+
+.card:nth-child(1){
 	background-color: darkcyan;
 }
+
+
+.card:nth-child(2){
+	background-color: lightpink;
+}
+
+.card:nth-child(3){
+	background-color: royalblue;
+}
+
+button{
+	cursor: pointer;
+	margin-left: ;
+}
+
+.cookie-regular,.card,h1 {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
